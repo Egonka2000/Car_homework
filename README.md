@@ -5,7 +5,7 @@ Ez a projekt a Titanic adathalmazon alapuló gépi tanulási rendszert valósít
 ## Projekt komponensek
 
 ### 1. Flask REST API + MLflow
-- **REST API**: Lehetőséget biztosít a modell tanítására és túlélés predikciójára.
+- **REST API**: Lehetőséget biztosít a modell tanítására és az utasok túlélésének predikciójára.
 - **MLflow**: Nyomon követi a tanítási folyamatokat és a predikciókat, beleértve a metrikákat és modelleket.
 
 ### 2. Apache Airflow
@@ -41,7 +41,7 @@ Ez a parancs felépíti a konténereket és elindítja az összes szolgáltatás
 
 ## Elérhető Szolgáltatások
 
-**REST API**        http://localhost:8081
-**MlFlow UI**       http://localhost:5102
-**Airflow UI**      http://localhost:808
-**Streamlit UI**    http://localhost:8501
+- **REST API**        http://localhost:8081
+- **MlFlow UI**       http://localhost:5102
+- **Airflow UI**      http://localhost:808
+- **Streamlit UI**    http://localhost:8501
